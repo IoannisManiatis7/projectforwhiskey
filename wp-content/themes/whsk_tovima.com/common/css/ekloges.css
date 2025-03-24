@@ -1,0 +1,90 @@
+.ekloges-header{margin-bottom:3rem;position:relative}
+.ekloges-logo{line-height:1;margin:0 auto;text-align:center;margin-bottom:4rem;margin-top:4rem}
+.ekloges-logo img {max-width: 100%;height: auto}
+.ekloges-menu-wrapper{position:relative;display:flex;align-items:center;justify-content:center}
+.ekloges-menu-wrapper:before{content:"";background:#ddd;display:block;height:1px;width:100%;position:absolute;z-index:-1}
+.ekloges-menu{display:inline-flex;padding:0 15px;background-color:#fff}
+.ekloges-menu .menu-item{font-size:15px;font-family:Manrope;font-weight:700;display:block;padding:0 15px;white-space:nowrap}
+.ekloges-menu .menu-item .submenu{display:none}
+.ekloges-menu .menu-item .submenu .menu-item{padding-inline:0}
+.ekloges-menu .menu-item a:hover{color:var(--darkblue)}
+.ekloges-menu .menu-item:hover .submenu{display:block;position:absolute;z-index:1;padding:0 12px 12px;background-color:#fff;margin-left:-10px;padding-top:10px}
+.ekloges-menu .menu-item:hover .submenu .menu-item{padding-bottom:5px}
+
+.ekloges-menu .menu-item:hover .dashicons {transform: rotate(180deg)}
+
+.layout-s-normal .flex-article{flex-direction:row-reverse}
+.layout-s-normal .flex-article{flex-direction:row-reverse;height:calc(100% - 20px - .75rem)}
+.layout-s-normal .flex-article .thumb-holder{height:100%}
+.layout-s-normal .flex-article .tile-content p{font-size:18px;color:#404040;margin-top:10px;line-height:22px;letter-spacing:-.18px}
+
+
+.layout-carou-videos .wrap-section-columns{position:relative;padding:3rem 0 0}
+.layout-carou-videos .wrap-section-columns:after{width:100vw;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw;position:absolute;bottom:0;top:0;background:#001423;content:"";z-index:-1}
+.carousel-video .slick-items.slick-slide{opacity:.5;transition:all .3s ease}
+.carousel-video .slick-items.slick-slide.slick-active{opacity:1}
+.carousel-video .slick-items.slick-slide .relative-box .wrap-thumb{border-top:4px solid transparent;border-right:4px solid transparent}
+.carousel-video .slick-items.slick-slide.slick-active .relative-box .wrap-thumb{border-top:4px solid #ffba59;border-right:4px solid #ffba59}
+.carousel-video .relative-box .tile-content{padding:0;position:absolute;left:0;height:auto;bottom:0;width:100%;padding-bottom:10px}
+.carousel-video .relative-box .tile-content .post-meta-wrapper{display:none}
+.carousel-video .relative-box .tile-content .o-head{font-size:3.6rem;background-color:#001423;color:#fff;display:inline;padding:.65rem;letter-spacing:-.85px;box-decoration-break:clone;-webkit-box-decoration-break:clone;line-height:1.35;padding-left:5px}
+.layout-carou-videos .header-section{color:#fff}
+.carousel-video .relative-box .tile-content .wrap-ohead{max-width:470px}
+.carousel-video .slick-items .wrap-thumb{position:relative}
+.carousel-video .wrap-thumb:before{content:"";background-position:center;background-size:auto;background-repeat:no-repeat;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70.001' height='70' viewBox='0 0 70.001 70'%3E%3Cg id='playButton' transform='translate(3779.118 -14781.002)'%3E%3Ccircle id='Ellipse_56' data-name='Ellipse 56' cx='35' cy='35' r='35' transform='translate(-3779.117 14781.002)' fill='%23191919' opacity='0.6'/%3E%3Cpath id='Union_1' data-name='Union 1' d='M0 35A35 35 0 1 1 35 70 35.041 35.041 0 0 1 0 35Zm3.685 0A31.316 31.316 0 1 0 35 3.685 31.351 31.351 0 0 0 3.684 35ZM29.391 46.272V23.945A1.78 1.78 0 0 1 30.5 22.3a1.842 1.842 0 0 1 2.116.35L43.673 33.7a1.844 1.844 0 0 1 0 2.6L32.62 47.353a1.848 1.848 0 0 1-.145.131 1.78 1.78 0 0 1-3.083-1.212Zm3.56-4.463L39.759 35l-6.808-6.808Z' transform='translate(-3779.117 14781.002)' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E ");position:absolute;top:0;left:0;right:0;bottom:0;z-index:2}
+.wrap-carouselh{position:relative}
+.wrap-carouselh .outside-arrows{position:absolute;left:-40px;right:0;top:calc(54% - 40px);z-index:2;width:calc(82% + 40px);padding:0;justify-content:space-between}
+.wrap-carouselh .outside-arrows .top-control{width:40px;height:40px;filter:invert(1) brightness(2)}
+.wrap-carouselh .outside-arrows .top-control.slick-disabled{opacity:0}
+.wrap-vinieta .vinieta-i{background:var(--darkblue);color:#fff;padding:7px 8px;line-height:1;font-family:Manrope;font-size:14px;font-weight:700;margin-bottom:-1px;display:inline-block;margin-left:2.5rem}
+.layout-carou-videos .outside-arrows .top-control{filter:invert(1) brightness(2.5)}
+.vertical-abs{height:420px;display:block}
+.vertical-abs .wrap-thumb{height:100%}
+.vertical-abs .wrap-thumb .thumb-holder{height:100%;padding:0}
+.vertical-abs .abs-sand{background:transparent linear-gradient(180deg,#00142300 0,#001423 100%) 0 0 no-repeat padding-box;padding-top:2rem}
+.vertical-abs .abs-sand .o-head{color:#fff}
+.vertical-abs .abs-sand .o-head{color:#fff;padding-inline:10px;padding-bottom:10px;text-align:center}
+.abs-sand .interviewer{font-size:14px;color:#fff;font-family:Manrope;font-weight:700;margin-bottom:20px;display:block}
+
+
+.more-news {margin-top:1rem}
+
+.layout-carou-videos .wrap-section-columns .carousel-inner-header {
+    padding-bottom: 12px;
+}
+.vertical-abs:hover .abs-sand .o-head,
+.carousel-video .relative-box:hover .tile-content .o-head {color: #DEDEDE}
+
+@media screen and (min-width:1600px){
+.layout-s-normal .flex-article {height:calc(100% + 0.75rem * 2)}
+}
+
+@media only screen  and (min-device-width : 768px) and (max-device-width : 1024px)  and (orientation : portrait) {
+.layout-s-normal .flex-article{flex-direction:column;height:auto}
+.layout-s-normal .flex-article .wrap-thumb{width:100%}
+.layout-s-normal .flex-article .tile-content{width:100%}
+.layout-s-normal .latest-opinions .simple-row {width: 100%;margin-right: 0}
+}
+
+@media screen and (max-width:1023px) {
+.layout-s-normal .flex-article .tile-content p{font-size:16px;line-height:1.3}
+.ekloges-menu {overflow-x: scroll;padding-left:0}
+.ekloges-menu::-webkit-scrollbar {display: none}
+.ekloges-menu-wrapper:before{display:none}
+.ekloges-menu-wrapper {border-bottom: 1px solid #DDD;padding-bottom: 10px;padding-left:15px}
+.ekloges-menu .menu-item:first-child {padding-left: 0}
+.home-section:first-child {padding-top: 0}  
+.carousel-video .relative-box .tile-content .o-head{font-size:30px}  
+}
+
+
+@media screen and (max-width:767px) {
+.ekloges-logo{max-width:190px}
+.wrap-vinieta .vinieta-i{margin-left:0;font-size:12px;margin-top:10px;margin-bottom:10px}
+.carousel-video .relative-box .tile-content{position:relative}
+.carousel-video .relative-box .tile-content .o-head{font-size:18px;padding:0;background:0 0}
+.carousel-video .relative-box{flex-direction:column-reverse}
+.carousel-video .relative-box .tile-content .wrap-ohead{height:110px}
+.maxgridrow.ekloges-grid {padding: 0}
+.maxgridrow.ekloges-grid .home-section {padding-inline: 12px}  
+}

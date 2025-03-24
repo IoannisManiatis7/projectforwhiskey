@@ -1,0 +1,27 @@
+.popular-width{display:none}
+.minigridrow{max-width:750px;padding:0 12px;margin:0 auto}
+.wrap-member-cols{margin-top:6rem;margin-bottom:6rem}
+.col-item{padding:20px 0;display:flex;flex-direction:column;width:100%;height:100%;max-width:305px;margin:0 auto}
+.loginform-header{font-size:36px;font-weight:400;margin:0 0 3.5rem}
+.login-password,.login-username{margin:0 0 22px}
+#loginform .login-password label,#loginform .login-username label{display:block;font-size:14px;font-family:Manrope;font-weight:600;line-height:18px;margin-bottom:10px}
+#loginform input{background-color:#fff;-webkit-appearance:none;-ms-appearance:none;-moz-appearance:none;-webkit-box-shadow:0 0 0 30px #fff inset;-webkit-box-shadow:0 0 0 30px #fff inset;box-shadow:0 0 0 30px #fff inset;border:1px solid #a6a6a6;border-radius:4px;font-family:Manrope;width:100%;padding:5px;font-size:14px;line-height:1}
+.login-submit button,.register-member{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#ffbd52;border:none;font-family:Manrope;font-size:14px;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;padding:5px 16px;border-radius:4px;cursor:pointer;font-weight:500;letter-spacing:-.14px;width:100%;max-width:150px;text-align:center;color:#262626}
+.register-member{margin-top:auto;border: 1px solid var(--lightorange)}
+.column.br:after{content:"";position:absolute;right:0;top:0;bottom:0;border-right:1px solid #ccc}
+.copyright-name{margin-bottom:3rem;margin-top:0;padding-top:3.5rem}
+.loginform-footer p{line-height:1.15}
+.loginform-footer{margin-bottom:100px}
+
+.login-submit button{
+    border: 1px solid var(--lightorange);
+    background-color: #FFF;
+}
+
+.register-member:hover{
+    border: 1px solid var(--lightorange);
+    background-color: #FFF;  
+}
+.login-submit button:hover{
+    background-color: var(--lightorange);
+}

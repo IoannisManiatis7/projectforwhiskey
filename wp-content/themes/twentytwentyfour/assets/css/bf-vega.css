@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'BF VEGA';
+    src: url('../fonts/vega/regular/BFVEGA10-REGULAR.eot');
+    src: url('../fonts/vega/regular/BFVEGA10-REGULAR.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vega/regular/BFVEGA10-REGULAR.woff') format('woff'),
+         url('../fonts/vega/regular/BFVEGA10-REGULAR.otf') format('opentype'),
+         url('../fonts/vega/regular/BFVEGA10-REGULAR.svg#BFVEGA10-REGULAR') format('svg');
+    font-weight: 400; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BF VEGA';
+    src: url('../fonts/vega/bold/BFVEGASEMI10-BOLD.eot');
+    src: url('../fonts/vega/bold/BFVEGASEMI10-BOLD.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vega/bold/BFVEGASEMI10-BOLD.woff') format('woff'),
+         url('../fonts/vega/bold/BFVEGASEMI10-BOLD.otf') format('opentype'),
+         url('../fonts/vega/bold/BFVEGASEMI10-BOLD.svg#BFVEGASEMI10-BOLD') format('svg');
+    font-weight: 700; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BF VEGA';
+    src: url('../fonts/vega/ultra/BFVEGAULTRA10-REGULAR.eot');
+    src: url('../fonts/vega/ultra/BFVEGAULTRA10-REGULAR.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vega/ultra/BFVEGAULTRA10-REGULAR.woff') format('woff'),
+         url('../fonts/vega/ultra/BFVEGAULTRA10-REGULAR.otf') format('opentype'),
+         url('../fonts/vega/ultra/BFVEGAULTRA10-REGULAR.svg#BFVEGAULTRA10-REGULAR') format('svg');
+    font-weight: 900; 
+    font-style: normal;
+}

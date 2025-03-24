@@ -1,0 +1,43 @@
+/*!
+ * Datepicker v0.6.3
+ * https://github.com/fengyuanchen/datepicker
+ * 
+ * Copyright (c) 2014-2017 Fengyuan Chen
+ * Released under the MIT license
+ * 
+ * Date: 2017-09-29T14:28:02.764Z
+ */.datepicker-container{background-color:#fff;direction:ltr;font-size:12px;left:0;line-height:30px;position:fixed;top:0;-ms-touch-action:none;touch-action:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:210px;z-index:-1;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}.datepicker-container:after,.datepicker-container:before{border:5px solid transparent;content:" ";display:block;height:0;position:absolute;width:0}.datepicker-dropdown{border:1px solid #ccc;box-shadow:0 3px 6px #ccc;box-sizing:content-box;position:absolute;z-index:1}.datepicker-inline{position:static}.datepicker-top-left,.datepicker-top-right{border-top-color:#39f}.datepicker-top-left:after,.datepicker-top-left:before,.datepicker-top-right:after,.datepicker-top-right:before{border-top:0;left:10px;top:-5px}.datepicker-top-left:before,.datepicker-top-right:before{border-bottom-color:#39f}.datepicker-top-left:after,.datepicker-top-right:after{border-bottom-color:#fff;top:-4px}.datepicker-bottom-left,.datepicker-bottom-right{border-bottom-color:#39f}.datepicker-bottom-left:after,.datepicker-bottom-left:before,.datepicker-bottom-right:after,.datepicker-bottom-right:before{border-bottom:0;bottom:-5px;left:10px}.datepicker-bottom-left:before,.datepicker-bottom-right:before{border-top-color:#39f}.datepicker-bottom-left:after,.datepicker-bottom-right:after{border-top-color:#fff;bottom:-4px}.datepicker-bottom-right:after,.datepicker-bottom-right:before,.datepicker-top-right:after,.datepicker-top-right:before{left:auto;right:10px}.datepicker-panel>ul{margin:0;padding:0;width:102%}.datepicker-panel>ul:after,.datepicker-panel>ul:before{content:" ";display:table}.datepicker-panel>ul:after{clear:both}.datepicker-panel>ul>li{background-color:#fff;cursor:pointer;float:left;height:30px;list-style:none;margin:0;padding:0;text-align:center;width:30px}.datepicker-panel>ul>li:hover{background-color:#e5f2ff}.datepicker-panel>ul>li.muted,.datepicker-panel>ul>li.muted:hover{color:#999}.datepicker-panel>ul>li.highlighted{background-color:#e5f2ff}.datepicker-panel>ul>li.highlighted:hover{background-color:#cce5ff}.datepicker-panel>ul>li.picked,.datepicker-panel>ul>li.picked:hover{color:#39f}.datepicker-panel>ul>li.disabled,.datepicker-panel>ul>li.disabled:hover{background-color:#fff;color:#ccc;cursor:default}.datepicker-panel>ul>li.disabled.highlighted,.datepicker-panel>ul>li.disabled:hover.highlighted{background-color:#e5f2ff}.datepicker-panel>ul>li[data-view="month next"],.datepicker-panel>ul>li[data-view="month prev"],.datepicker-panel>ul>li[data-view="year next"],.datepicker-panel>ul>li[data-view="year prev"],.datepicker-panel>ul>li[data-view="years next"],.datepicker-panel>ul>li[data-view="years prev"],.datepicker-panel>ul>li[data-view=next]{font-size:18px}.datepicker-panel>ul>li[data-view="month current"],.datepicker-panel>ul>li[data-view="year current"],.datepicker-panel>ul>li[data-view="years current"]{width:150px}.datepicker-panel>ul[data-view=months]>li,.datepicker-panel>ul[data-view=years]>li{height:52.5px;line-height:52.5px;width:52.5px}.datepicker-panel>ul[data-view=week]>li,.datepicker-panel>ul[data-view=week]>li:hover{background-color:#fff;cursor:default}.datepicker-hide{display:none}
+/*# sourceMappingURL=datepicker.min.css.map */
+
+
+.site-header{margin-bottom:0}
+.print-disclaimer{background-color:var(--lightorange);border-top:1px solid #ccc;padding:16px}
+.wrap-page-newspaper{margin-top:4rem}
+.newspaper-issue {margin-top:4rem;border: 1px solid #A6A6A6}
+.newspaper-issue img {width: 100%;max-width: 100%}
+.is-datepick {
+    font-family: 'Manrope';
+    border: 1px solid #000;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1;
+    border-radius: 4px;
+}
+.paper-footer{border-top:1px solid var(--linelight);padding-top:6rem;margin-top:6rem;margin-bottom:10rem}
+.newspaper-disclaimer {font-size: 15px;line-height: 20px}
+.newspaper-buttons{display:flex}
+.newspaper-buttons button,
+.register-member{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:var(--lightorange);border:none;font-family:Manrope;font-size:14px;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;padding:5px 16px;border-radius:4px;cursor:pointer;font-weight:500;letter-spacing:-.14px;width:100%;max-width:150px;text-align:center;color:#262626;display:block;width:47%;margin:0 1.5%}
+
+
+.newspaper-buttons button{border: 1px solid var(--lightorange);background-color: #FFF}
+.newspaper-buttons button:hover{border: 1px solid var(--lightorange);background-color:var(--lightorange)}
+
+.register-member:hover {
+    background-color: #FFF;
+    border: 1px solid var(--lightorange);
+}
+
+.newspaper-issue img {
+    height: auto;
+}

@@ -1,0 +1,151 @@
+#ima-sample-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 728px;
+}
+#ima-sample-placeholder {
+    background-image: url(posters/android.png);
+    width: 640px;
+    height: 360px;
+}
+.urlLink {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#ima-sample-videoplayer {
+    position: relative;
+    background-color: #000;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(50, 50, 50, 0.95);
+    border: 2px #ccc solid;
+    width: 640px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#content_video {
+    overflow: hidden;
+}
+#ima-sample-content-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#ima-sample-playpause,
+#ima-sample-replay {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 25px;
+    opacity: 0.5;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px transparent solid;
+    color: #000;
+    cursor: pointer;
+    line-height: 0;
+}
+#ima-sample-replay {
+    display: none;
+}
+#ima-sample-playpause:hover,
+#ima-sample-replay:hover {
+    border: 1px red solid;
+    color: red;
+}
+#ima-sample-fullscreen {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 25px;
+    opacity: 0.5;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px transparent solid;
+    color: #000;
+    cursor: pointer;
+    line-height: 0;
+}
+#ima-sample-fullscreen:hover {
+    border: 1px red solid;
+    color: red;
+}
+#ima-sample-content,
+#ima-sample-adcontainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 360px;
+}
+#ima-sample-playlistDiv {
+    height: 122px;
+    width: 224px;
+    text-align: center;
+    margin: 10px auto;
+}
+.ima-sample-playlistItem {
+    height: 122px;
+    width: 102px;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.ima-sample-playlistImg {
+    border: 1px solid;
+}
+#ima-sample-console {
+    font-family: courier, monospace;
+    font-size: 12px;
+    margin-top: 20px;
+    height: 200px;
+    width: 630px;
+    padding: 5px;
+    border: 1px #ccc solid;
+    overflow-y: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ima-sample-companionDiv {
+    width: 728px;
+    height: 90px;
+    margin-top: 20px;
+}
+#ind-vid {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    display: none;
+}
+#simple-close-button {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    background: url(https://www.alteregomedia.org/files/images/vid-ads-close-button.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 10001;
+}
+.content_video-dimensions {
+    width: 100% !important;
+}
+.vid-enabled {
+    display: block !important;
+}
+/* .vjs-control-bar {
+    display: none !important;
+}
+ */
