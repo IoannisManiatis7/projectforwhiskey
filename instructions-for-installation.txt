@@ -1,0 +1,21 @@
+1.You need XAMPP
+2.Create a new sql database
+3.Go to your XAMPP htdocs folder
+4.Create a new folder for your site(or use the one provided)
+5.go into config and replace what you need to replace in the config.php file to connect it to the server:
+6.If it's a fresh wordpress install, follow the setup.
+7.Activate the plugins:
+8.The project doesn't need any SQL dumb files, since it's very simple. A fresh installation should be enough
+9.I have provided the ACF and "xml" files needed for the template to work.
+	a)Import 'acf-export-2025-03-24' to ACF for the fields and php to work.
+	b)Import the wordpress content xml to view the template with content according to the xd file.
+
+(IF FOR SOME REASON FILES ARE MISSING)
+place the files:
+ad-placeholder.php in to your theme theme file.
+cooking the same as above.
+and assets in the assets folder.
+
+The template should work for any Theme, with minor tweaks.
+
+For the image if its not imported by the wordpress, you can use the food one in the assets file.
