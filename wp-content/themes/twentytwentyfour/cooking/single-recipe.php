@@ -130,7 +130,7 @@ get_header();
                     </div>
 
                     <!--Steps,tips,tags-->
-                    <div class="steps-and-ad-wrapper">
+                    <div class="steps-tips-tags-wrapper">
                         <!--Steps -->
                         <div class="right-side">
                             <div class="steps-section">
